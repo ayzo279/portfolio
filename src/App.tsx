@@ -5,19 +5,26 @@ import Amplifi from "./pages/Amplifi";
 import Insights from "./pages/Insights";
 import Arbimon from "./pages/Arbimon";
 import Uplift from "./pages/Uplift";
+
+import Navbar from "./components/Navbar";
+import ContactBar from "./components/ContactBar";
+
+
 import React from "react";
 
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="App">
+      <div className="App font-sans bg-slate-900 text-white min-h-screen">
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project1" element={<Uplift />} />
-          <Route path="/project2" element={<Insights />} />
-          <Route path="/project3" element={<Arbimon />} />
-          <Route path="/project4" element={<Amplifi />} />
+          <Route path="/uplift" element={<Uplift />} />
+          <Route path="/insights" element={<Insights />} />
+          <Route path="/arbimon" element={<Arbimon />} />
+          <Route path="/amplifi" element={<Amplifi />} />
         </Routes>
+        <ContactBar/>
       </div>
     </Router>
   );
