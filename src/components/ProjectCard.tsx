@@ -30,7 +30,7 @@ const ProjectCard: React.FC<CardProps> = ({
         leftAlign ? "flex-row" : "flex-row-reverse"
       } justify-between items-center px-[8vw] h-[33.33vw] bg-cover bg-center ${gradient}`}
     >
-      <div className={`flex flex-col space-y-[4.5vw] items-center w-[30vw] ${leftAlign ? 'ml-[4vw]' : 'mr-[4vw]'}`}>
+      <div className={`flex flex-col space-y-[4.5vw] items-center w-[30vw] ${leftAlign ? 'ml-[6vw]' : 'mr-[4vw]'}`}>
         <div className="flex flex-col space-y-[4vw] items-start">
           <div className="text-left">
             <p className="text-[1.05vw] leading-[0.5vw]">{projectType}</p>

@@ -1,9 +1,9 @@
 import React from "react";
 import { MailOutline, GitHub, LinkedIn } from "@mui/icons-material";
 
-const ContactBar = () => {
+const ContactBar: React.FC = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="flex flex-col py-[4vw] items-center space-y-[1.5vw]">
         <p className="text-[1.5vw] leading-[1.5vw]">CONNECT WITH ME</p>
         <div className="flex flex-row space-x-[0.4vw]">

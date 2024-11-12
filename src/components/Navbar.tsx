@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from "../assets/images/my_logo.png";
-import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className="px-[4vw] h-[15vh] flex justify-between items-center">
       <a href="/">
@@ -19,7 +18,7 @@ const Navbar = () => {
         <a href="/" className="hover:text-teal-300">
           HOME
         </a>
-        <a href="/" className=" hover:text-teal-300">
+        <a href="#contact" className=" hover:text-teal-300">
           CONTACT
         </a>
         <a

@@ -5,7 +5,8 @@
 @tailwind utilities;
 
 html, body {
-  overscroll-behavior: none; /* Prevents "bouncing" beyond page bounds */
+  overscroll-behavior: none; 
+  scroll-behavior: smooth;
 }
 
 @keyframes upAndDown {

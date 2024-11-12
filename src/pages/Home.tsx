@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       {/* Project Repository */}
       <div className="flex flex-col">
         <ProjectCard
-          leftAlign={true}
+          leftAlign={false}
           projectType="EDUCATION PERFECT"
           title="Insights 2.0"
           workType="UX/UI REDESIGN"
@@ -38,7 +38,7 @@ const Home: React.FC = () => {
           gradient="bg-insights-gradient"
         />
         <ProjectCard
-          leftAlign={false}
+          leftAlign={true}
           projectType="INDEPENDENT PROJECT"
           title="uplift"
           workType="PRODUCT DESIGN"
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
           gradient="bg-uplift-gradient"
         />
         <ProjectCard
-          leftAlign={true}
+          leftAlign={false}
           projectType="RAINFOREST CONNECTION"
           title="Arbimon"
           workType="UX/UI REDESIGN"
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
           gradient="bg-arbimon-gradient"
         />
         <ProjectCard
-          leftAlign={false}
+          leftAlign={true}
           projectType="INDEPENDENT PROJECT"
           title="Amplifi"
           workType="PRODUCT DESIGN"
