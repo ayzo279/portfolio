@@ -30,10 +30,9 @@ const Uplift: React.FC = () => {
       "DON'T DESIGN IN A VACUUM.",
       "Working in a scale-up with many teams advancing their own projects, I had to consider how my designs impacted others and vice versa. Maintaining close contact with stakeholders across departments and product teams was essential to ensure alignment with each team's goals and broader company objectives. I adapted my designs to account for changes like a restructured curriculum, expansion into the Canadian market, and the release of Insights Pro.",
     ],
-    ,
     [
       "KEEP IT SIMPLE, STUPID.",
-      "Complexity doesn't always translate to better usability or usefulness. For the Insights redesign, simplicity proved key. Users were accustomed to the old interface, so changes needed to be necessary yet familiar to avoid adding cognitive load. With large amounts of data, quick, efficient interactions were essential to help users access information rapidly, making simplicity crucial for success.",
+      "Complexity doesn't always translate to better usability or usefulness. For the Insights redesign, simplicity proved key. Users were accustomed to the old interface, so changes needed to be necessary yet familiar to avoid adding cognitive load. With large amounts of data, quick, efficient interactions were essential to help users access information rapidly, making simplicity crucial for success."
     ],
   ];
 
