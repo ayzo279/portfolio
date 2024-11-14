@@ -9,6 +9,7 @@ interface BannerProps {
   role: string;
   timeline: string;
   backgroundImage: string;
+  variant?: boolean;
 }
 
 const Banner: React.FC<BannerProps> = ({
@@ -20,13 +21,14 @@ const Banner: React.FC<BannerProps> = ({
   role,
   timeline,
   backgroundImage,
+  variant,
 }) => {
   return (
     <div
-      className={`relative h-[85vh] bg-auto-110 bg-center ${backgroundImage}`}
+      className={`relative h-[85vh] ${variant ? `bg-cover bg-top` : `bg-auto-110 bg-center`} ${backgroundImage}`}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-black-translucent from-[23%] to-transparent to-[76%]" />
-      <div className="absolute flex inset-0 items-center pl-[15vw]">
+      <div className={`absolute inset-0 bg-gradient-to-r ${leftAlign ? `from-black-translucent from-[23%] to-transparent to-[76%]`:`from-transparent from-[24%] to-black-translucent to-[77%]`}`} />
+      <div className={`absolute flex inset-0 items-center ${leftAlign ? `pl-[15vw]` : `justify-end pr-[15vw]`}`}>
         <div className="flex flex-col space-y-[5vw]">
           <div className="flex flex-col space-y-[1vw]">
             <div>

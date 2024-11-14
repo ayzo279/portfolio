@@ -16,7 +16,7 @@ export default {
         'arbimon-gradient': "url('src/assets/images/arbimon_gradient.png')",
         'amplifi-gradient': "url('src/assets/images/amplifi_gradient.png')",
         'uplift-banner': "url('src/assets/images/uplift/uplift_banner.png')",
-        // 'insights-banner': "url('src/assets/images/insights/insights_banner.png')",
+        'insights-banner': "url('src/assets/images/insights/engagement_after.png')",
         // 'arbimon-banner': "url('src/assets/images/arbimon/arbimon_banner.png')",
         // 'amplifi-banner': "url('src/assets/images/amplifi/amplifi_banner.png')",
       },

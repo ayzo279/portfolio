@@ -46,7 +46,7 @@ const Uplift: React.FC = () => {
   return (
     <div className="text-[1.25vw] leading-[2vw] font-light">
       <Banner
-        leftAlign={false}
+        leftAlign={true}
         projectType="PRODUCT DESIGN"
         title="uplift"
         description="A fitness social media app combating gym anxiety
@@ -532,8 +532,8 @@ through peer support and accountability"
         {/* DELIIVER SECTION*/}
         <div className="flex flex-col space-y-[4vw] items-center">
           <Header
-            label="IDEATE"
-            title="Product Brainstorming"
+            label="DELIVER"
+            title="Designing the Solution"
             image={UpliftFigma}
           />
           <div className="flex flex-col space-y-[0.5vw] w-[50vw]">

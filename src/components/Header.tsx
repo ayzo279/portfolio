@@ -15,7 +15,7 @@ const Header:React.FC<HeaderProps> = ({label, title, image}) => {
             <div className="w-[3vw] h-[0.2vw] bg-white" />
         </div>
         <p className="text-[3vw] leading-[3vw] font-bold">{title}</p>
-       {image ? (<img src={image} className="w-full pt-[1vw]"/>) : ""}
+       {image ? (<div className="w-[60vw]"><img src={image} className="w-full pt-[1vw]"/></div>) : ""}
     </div>
   )
 }

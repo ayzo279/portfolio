@@ -8,6 +8,7 @@ import Uplift from "./pages/Uplift";
 
 import Navbar from "./components/Navbar";
 import ContactBar from "./components/ContactBar";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 import React from "react";
@@ -15,6 +16,7 @@ import React from "react";
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App font-sans bg-slate-900 text-white min-h-screen">
         <Navbar/>
         <Routes>
