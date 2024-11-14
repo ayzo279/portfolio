@@ -20,7 +20,7 @@ import Personas from "../assets/images/insights/personas.png";
 import Reporting from "../assets/images/insights/reporting.png";
 import TestingResults from "../assets/images/insights/testing_results.png";
 
-const Uplift: React.FC = () => {
+const Insights: React.FC = () => {
   const reflections: string[][] = [
     [
       "VALIDATE. VALIDATE. VALIDATE.",
@@ -384,4 +384,4 @@ const Uplift: React.FC = () => {
   );
 };
 
-export default Uplift;
+export default Insights;
