@@ -16,21 +16,6 @@ import Lofi1 from "../assets/images/arbimon/lofi1.png";
 import Lofi2 from "../assets/images/arbimon/lofi2.png";
 import Personas from "../assets/images/arbimon/personas.png";
 
-import Assessment1 from "../assets/images/insights/assessment1.png";
-import Assessment2 from "../assets/images/insights/assessment2.png";
-import Assessment3 from "../assets/images/insights/assessment3.png";
-import ClassTable from "../assets/images/insights/class_table.png";
-import Documentation from "../assets/images/insights/documentation.png";
-import EngagementAfter from "../assets/images/insights/engagement_after.png";
-import EngagementBefore from "../assets/images/insights/engagement_before.png";
-import IA from "../assets/images/insights/infoarch.png";
-import InsightsBefore from "../assets/images/insights/insights_before.png";
-import InsightsFigma from "../assets/images/insights/insights_figma.png";
-import Learning1 from "../assets/images/insights/learning1.png";
-import Learning2 from "../assets/images/insights/learning2.png";
-import Reporting from "../assets/images/insights/reporting.png";
-import TestingResults from "../assets/images/insights/testing_results.png";
-
 const Arbimon: React.FC = () => {
   const reflections: string[][] = [
     [
