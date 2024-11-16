@@ -24,6 +24,22 @@ const ProjectCard: React.FC<CardProps> = ({
   linkTo,
   gradient,
 }) => {
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    
+    // Temporarily disable smooth scrolling
+    const htmlElement = document.documentElement;
+    const previousScrollBehavior = htmlElement.style.scrollBehavior;
+    htmlElement.style.scrollBehavior = "auto";
+
+    // Navigate to the link without smooth scrolling
+    window.location.href = linkTo;
+
+    // Restore smooth scroll after a short delay
+    setTimeout(() => {
+      htmlElement.style.scrollBehavior = previousScrollBehavior || "smooth";
+    }, 0);
+  };
   return (
     <div
       className={`flex ${
@@ -48,6 +64,7 @@ const ProjectCard: React.FC<CardProps> = ({
           <Link
             to={linkTo}
             className="border-2 px-[1vw] py-[0.75vw] hover:bg-white hover:text-slate-950 text-[1.25vw] leading-[1.25vw]"
+            onClick={handleLinkClick}
           >
             VIEW CASE
           </Link>

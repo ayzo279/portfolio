@@ -16,7 +16,7 @@ import React from "react";
 const App: React.FC = () => {
   return (
     <Router>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <div className="App font-sans bg-slate-900 text-white min-h-screen">
         <Navbar/>
         <Routes>

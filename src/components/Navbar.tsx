@@ -4,14 +4,6 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
 
-  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
-    const contactSection = document.querySelector("#contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="px-[4vw] h-[15vh] flex justify-between items-center">
       <Link to="/">
@@ -28,7 +20,7 @@ const Navbar: React.FC = () => {
         <Link to="/" className="hover:text-teal-300">
           HOME
         </Link>
-        <a href="#contact" className=" hover:text-teal-300" onClick={handleContactClick}>
+        <a href="#contact" className=" hover:text-teal-300">
           CONTACT
         </a>
         <a
