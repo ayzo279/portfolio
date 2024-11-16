@@ -6,7 +6,7 @@
 
 html, body {
   overscroll-behavior: none; 
-  scroll-behavior: smooth;
+  scroll-behavior: auto !important;
 }
 
 @keyframes upAndDown {
