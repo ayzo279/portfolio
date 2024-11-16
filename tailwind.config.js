@@ -18,7 +18,7 @@ export default {
         'uplift-banner': "url('src/assets/images/uplift/uplift_banner.png')",
         'insights-banner': "url('src/assets/images/insights/engagement_after.png')",
         'arbimon-banner': "url('src/assets/images/arbimon/hifi1.png')",
-        // 'amplifi-banner': "url('src/assets/images/amplifi/amplifi_banner.png')",
+        'amplifi-banner': "url('src/assets/images/amplifi/ampproto.png')",
       },
       backgroundSize: {
         'auto-110': 'auto 110%',

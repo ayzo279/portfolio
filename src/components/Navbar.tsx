@@ -1,10 +1,20 @@
 import React from "react";
 import Logo from "../assets/images/my_logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
+
+  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const contactSection = document.querySelector("#contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="px-[4vw] h-[15vh] flex justify-between items-center">
-      <a href="/">
+      <Link to="/">
         <div className="flex flex-row items-center ">
           <img
             className="w-[6vw]"
@@ -13,12 +23,12 @@ const Navbar: React.FC = () => {
           />
           <p className="text-[3vw] font-extralight">ANDY ZHUO</p>
         </div>
-      </a>
+      </Link>
       <div className="flex flex-row items-center font-medium text-[1.2vw] space-x-[4vw]">
-        <a href="/" className="hover:text-teal-300">
+        <Link to="/" className="hover:text-teal-300">
           HOME
-        </a>
-        <a href="#contact" className=" hover:text-teal-300">
+        </Link>
+        <a href="#contact" className=" hover:text-teal-300" onClick={handleContactClick}>
           CONTACT
         </a>
         <a
