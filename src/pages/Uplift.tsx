@@ -5,32 +5,32 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Reflection from "../components/Reflection";
 
-import UpliftAffMap from "../assets/images/uplift_affmap.png";
-import NoahPersona from "../assets/images/uplift/Noah_persona.png";
-import KatiePersona from "../assets/images/uplift/Katie_persona.png";
-import BarryPersona from "../assets/images/uplift/Barry_persona.png";
+import UpliftAffMap from "/images/uplift_affmap.png";
+import NoahPersona from "/images/uplift/Noah_persona.png";
+import KatiePersona from "/images/uplift/Katie_persona.png";
+import BarryPersona from "/images/uplift/Barry_persona.png";
 
-import Strong1 from "../assets/images/uplift/strong_comp.png";
-import Strong2 from "../assets/images/uplift/strong_comp2.png";
-import Arrow1 from "../assets/images/uplift/arrow1.png";
-import Arrow2 from "../assets/images/uplift/arrow2.png";
-import Corecircle1 from "../assets/images/uplift/corecircle1.png";
-import Corecircle2 from "../assets/images/uplift/corecircle2.png";
-import Strava1 from "../assets/images/uplift/strava1.png";
-import Strava2 from "../assets/images/uplift/strava2.png";
+import Strong1 from "/images/uplift/strong_comp.png";
+import Strong2 from "/images/uplift/strong_comp2.png";
+import Arrow1 from "/images/uplift/arrow1.png";
+import Arrow2 from "/images/uplift/arrow2.png";
+import Corecircle1 from "/images/uplift/corecircle1.png";
+import Corecircle2 from "/images/uplift/corecircle2.png";
+import Strava1 from "/images/uplift/strava1.png";
+import Strava2 from "/images/uplift/strava2.png";
 
-import NoahJourney from "../assets/images/uplift/Noah_journey.png";
-import KatieJourney from "../assets/images/uplift/Katie_journey.png";
-import BarryJourney from "../assets/images/uplift/Barry_journey.png";
+import NoahJourney from "/images/uplift/Noah_journey.png";
+import KatieJourney from "/images/uplift/Katie_journey.png";
+import BarryJourney from "/images/uplift/Barry_journey.png";
 
-import UpliftIA from "../assets/images/uplift/uplift_ia.png";
-import UpliftFigma from "../assets/images/uplift/uplift_figma.png";
-import StyleGuide from "../assets/images/uplift/uplift_style_guide.png";
+import UpliftIA from "/images/uplift/uplift_ia.png";
+import UpliftFigma from "/images/uplift/uplift_figma.png";
+import StyleGuide from "/images/uplift/uplift_style_guide.png";
 
-import Lofi1 from "../assets/images/uplift/uplift_lofi.png";
-import Lofi2 from "../assets/images/uplift/uplift_lofi2.png";
-import Lofi3 from "../assets/images/uplift/uplift_lofi3.png";
-import Hifis from "../assets/images/uplift/uplift_hifis.png";
+import Lofi1 from "/images/uplift/uplift_lofi.png";
+import Lofi2 from "/images/uplift/uplift_lofi2.png";
+import Lofi3 from "/images/uplift/uplift_lofi3.png";
+import Hifis from "/images/uplift/uplift_hifis.png";
 
 const Uplift: React.FC = () => {
   const reflections: string[][] = [

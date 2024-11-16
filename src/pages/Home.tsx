@@ -1,9 +1,9 @@
 import React from "react";
-import Borealis from "../assets/images/vitruvian_borealis.png";
-import UpliftPreview from "../assets/images/uplift_preview.png";
-import InsightsPreview from "../assets/images/insights_preview.png";
-import ArbimonPreview from "../assets/images/arbimon_preview.png";
-import AmplifiPreview from "../assets/images/amplifi_preview.png";
+import Borealis from "/images/vitruvian_borealis.png";
+import UpliftPreview from "/images/uplift_preview.png";
+import InsightsPreview from "/images/insights_preview.png";
+import ArbimonPreview from "/images/arbimon_preview.png";
+import AmplifiPreview from "/images/amplifi_preview.png";
 
 import ProjectCard from "../components/ProjectCard";
 

@@ -4,17 +4,17 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Reflection from "../components/Reflection";
 
-import AffMap from "../assets/images/arbimon/affmap.png";
-import ArbimonBefore from "../assets/images/arbimon/arbimon_before.png";
-import ArbimonFigma from "../assets/images/arbimon/arbimon_figma.png";
-import Competitors from "../assets/images/arbimon/competitors.png";
-import Filters from "../assets/images/arbimon/filters.png";
-import Gallery from "../assets/images/arbimon/gallery.png";
-import Hifi from "../assets/images/arbimon/hifi1.png";
-import Interviews from "../assets/images/arbimon/interviews.png";
-import Lofi1 from "../assets/images/arbimon/lofi1.png";
-import Lofi2 from "../assets/images/arbimon/lofi2.png";
-import Personas from "../assets/images/arbimon/personas.png";
+import AffMap from "/images/arbimon/affmap.png";
+import ArbimonBefore from "/images/arbimon/arbimon_before.png";
+import ArbimonFigma from "/images/arbimon/arbimon_figma.png";
+import Competitors from "/images/arbimon/competitors.png";
+import Filters from "/images/arbimon/filters.png";
+import Gallery from "/images/arbimon/gallery.png";
+import Hifi from "/images/arbimon/hifi1.png";
+import Interviews from "/images/arbimon/interviews.png";
+import Lofi1 from "/images/arbimon/lofi1.png";
+import Lofi2 from "/images/arbimon/lofi2.png";
+import Personas from "/images/arbimon/personas.png";
 
 const Arbimon: React.FC = () => {
   const reflections: string[][] = [

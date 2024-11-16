@@ -5,25 +5,25 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Reflection from "../components/Reflection";
 
-import AffMap1 from "../assets/images/amplifi/affmap1.png";
-import AffMap2 from "../assets/images/amplifi/affmap2.png";
-import AmpFigma from "../assets/images/amplifi/AmplifiFigma.png";
-import Arrow from "../assets/images/amplifi/arrow.png";
-import Concept1 from "../assets/images/amplifi/concept1.png";
-import Concept2 from "../assets/images/amplifi/concept2.png";
-import Concept3 from "../assets/images/amplifi/concept3.png";
-import Concept4 from "../assets/images/amplifi/concept4.png";
-import Hifi1 from "../assets/images/amplifi/Hifi1.png";
-import Hifi2 from "../assets/images/amplifi/Hifi2.png";
-import Hifi3 from "../assets/images/amplifi/Hifi3.png";
-import Hifi4 from "../assets/images/amplifi/Hifi4.png";
-import Hifi5 from "../assets/images/amplifi/Hifi5.png";
-import Hypothesis1 from "../assets/images/amplifi/hypothesis1.png";
-import Hypothesis2 from "../assets/images/amplifi/hypothesis2.png";
-import IA from "../assets/images/amplifi/IA.png";
-import Persona1 from "../assets/images/amplifi/persona1.png";
-import Persona2 from "../assets/images/amplifi/persona2.png";
-import Persona3 from "../assets/images/amplifi/persona3.png";
+import AffMap1 from "images/amplifi/affmap1.png";
+import AffMap2 from "images/amplifi/affmap2.png";
+import AmpFigma from "images/amplifi/AmplifiFigma.png";
+import Arrow from "images/amplifi/arrow.png";
+import Concept1 from "images/amplifi/concept1.png";
+import Concept2 from "images/amplifi/concept2.png";
+import Concept3 from "images/amplifi/concept3.png";
+import Concept4 from "images/amplifi/concept4.png";
+import Hifi1 from "images/amplifi/Hifi1.png";
+import Hifi2 from "images/amplifi/Hifi2.png";
+import Hifi3 from "images/amplifi/Hifi3.png";
+import Hifi4 from "images/amplifi/Hifi4.png";
+import Hifi5 from "images/amplifi/Hifi5.png";
+import Hypothesis1 from "images/amplifi/hypothesis1.png";
+import Hypothesis2 from "images/amplifi/hypothesis2.png";
+import IA from "images/amplifi/IA.png";
+import Persona1 from "images/amplifi/persona1.png";
+import Persona2 from "images/amplifi/persona2.png";
+import Persona3 from "images/amplifi/persona3.png";
 
 const Amplifi: React.FC = () => {
   const reflections: string[][] = [
