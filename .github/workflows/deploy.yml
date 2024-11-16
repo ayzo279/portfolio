@@ -37,6 +37,8 @@ jobs:
         run: yarn install
       - name: Build project
         run: yarn build
+      - name: Create CNAME file
+        run: echo "andyzhuo.dev" > ./dist/CNAME
       - name: Upload production-ready build files
         uses: actions/upload-pages-artifact@v3
         with:
