@@ -21,11 +21,11 @@ const Home: React.FC = () => {
             beautiful, impactful experiences
           </p>
         </div>
-        <img className="mt-[-16vw] w-full animate-updown" src={Borealis} />
+        <img className="mt-[-16vw] w-full animate-updown" alt="Vitruvian circle on abstract aurora borealis waveform" src={Borealis} />
       </div>
 
       {/* Project Repository */}
-      <div className="flex flex-col">
+      <div className="flex flex-col project-list">
         <ProjectCard
           leftAlign={false}
           projectType="EDUCATION PERFECT"
