@@ -19,6 +19,10 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install
+      - name: Install missing peer dependencies
+        run: |
+          yarn add @testing-library/dom@^10.0.0
+          yarn add @types/node --dev
       - name: Run Jest tests
         run: yarn test
       - name: Start development server
