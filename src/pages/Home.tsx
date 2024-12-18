@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <div className="pt-[10vh] mb-[8vw] h-[85vh]">
         <div className="pl-[8vw] space-y-2">
           <p className=" text-[5.5vw] font-light leading-[5.5vw]">
-            PRODUCT DESIGNER <br />& UX DESIGNER
+            PRODUCT DESIGNER <br />& UX ENGINEER
           </p>
           <p className="text-[2vw] text-teal-300 leading-[2.5vw]">
             A creative coder with a passion for building <br />
