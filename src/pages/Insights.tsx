@@ -40,9 +40,9 @@ const Insights: React.FC = () => {
     ],
   ];
 
-  const sections: string[] = [
-    "overview", "discover", "ideate", "deliver", "validate", "wrapup"
-  ]
+  // const sections: string[] = [
+  //   "overview", "discover", "ideate", "deliver", "validate", "wrapup"
+  // ]
 
   return (
     <div className="text-[1.25vw] leading-[2vw] font-light">
