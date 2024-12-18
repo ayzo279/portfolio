@@ -3,19 +3,23 @@ import React from "react";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Reflection from "../components/Reflection";
+import TOC from "../components/TOC";
 
 import Assessment1 from "/images/insights/assessment1.png";
-import Assessment2 from "/images/insights/assessment2.png";
+import Assessment2 from "/images/insights/assessment1.gif";
 import Assessment3 from "/images/insights/assessment3.png";
-import ClassTable from "/images/insights/class_table.png";
+// import ClassTable from "/images/insights/class_table.png";
+import ClassTable from "/images/insights/Engagement_table.gif"
 import Documentation from "/images/insights/documentation.png";
-import EngagementAfter from "/images/insights/engagement_after.png";
+// import EngagementAfter from "/images/insights/engagement_after.png";
+import EngagementAfter from "/images/insights/engagement_tab.gif"
 import EngagementBefore from "/images/insights/engagement_before.png";
 import IA from "/images/insights/infoarch.png";
 import InsightsBefore from "/images/insights/insights_before.png";
 import InsightsFigma from "/images/insights/insights_figma.png";
 import Learning1 from "/images/insights/learning1.png";
-import Learning2 from "/images/insights/learning2.png";
+import Learning2 from "/images/insights/learning_tab.gif";
+// import Learning2 from "/images/insights/learning2.png";
 import Personas from "/images/insights/personas.png";
 import Reporting from "/images/insights/reporting.png";
 import TestingResults from "/images/insights/testing_results.png";
@@ -36,8 +40,13 @@ const Insights: React.FC = () => {
     ],
   ];
 
+  const sections: string[] = [
+    "overview", "discover", "ideate", "deliver", "validate", "wrapup"
+  ]
+
   return (
     <div className="text-[1.25vw] leading-[2vw] font-light">
+      <TOC sections={sections} />
       <Banner
         leftAlign={false}
         projectType="UX/UI REDESIGN"
@@ -52,7 +61,7 @@ const Insights: React.FC = () => {
       {/* MAIN CONTENT */}
       <div className="flex flex-col items-center px-[25vw] py-[8vw] space-y-[6vw]">
         {/* OVERVIEW SECTION */}
-        <div className="flex flex-col space-y-[4vw]">
+        <div className="flex flex-col space-y-[4vw]" id="overview">
           <Header label="OVERVIEW" title="Learning Down Under" />
           <p className="text-center">
             Education Perfect (EP) is an edtech scaleup based in Australia & New
@@ -86,7 +95,7 @@ const Insights: React.FC = () => {
           </div>
         </div>
         {/* DISCOVERY SECTION */}
-        <div className="flex flex-col space-y-[4vw] items-center">
+        <div className="flex flex-col space-y-[4vw] items-center" id="discover">
           <Header
             label="DISCOVER"
             title="Understanding the Product"
@@ -179,7 +188,7 @@ const Insights: React.FC = () => {
           </div>
         </div>
         {/* IDEATE SECTION */}
-        <div className="flex flex-col space-y-[4vw] items-center">
+        <div className="flex flex-col space-y-[4vw] items-center" id="ideate">
           <Header label="IDEATE" title="Rethinking Data Acesss" image={IA} />
           <div className="flex flex-col space-y-[0.5vw] w-[50vw]">
             <p className="text-[1.5vw] font-semibold">
@@ -222,7 +231,7 @@ const Insights: React.FC = () => {
           </div>
         </div>
         {/* DELIIVER SECTION*/}
-        <div className="flex flex-col space-y-[4vw] items-center">
+        <div className="flex flex-col space-y-[4vw] items-center" id="deliver">
           <Header
             label="DELIVER"
             title="Designing the Solution"
@@ -329,7 +338,7 @@ const Insights: React.FC = () => {
           </div>
         </div>
         {/* VALIDATE SECTION */}
-        <div className="flex flex-col space-y-[4vw] items-center">
+        <div className="flex flex-col space-y-[4vw] items-center" id="validate">
           <Header
             label="VALIDATE"
             title="Testing with Users"
@@ -359,7 +368,7 @@ const Insights: React.FC = () => {
         </div>
 
         {/* WRAPUP SECTION */}
-        <div className="flex flex-col space-y-[4vw] items-center">
+        <div className="flex flex-col space-y-[4vw] items-center" id="wrapup">
           <Header
             label="WRAPUP"
             title="Handoff and Learnings"
