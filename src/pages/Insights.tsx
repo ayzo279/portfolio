@@ -3,7 +3,7 @@ import React from "react";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Reflection from "../components/Reflection";
-import TOC from "../components/TOC";
+// import TOC from "../components/TOC";
 
 import Assessment1 from "/images/insights/assessment1.png";
 import Assessment2 from "/images/insights/assessment1.gif";
@@ -46,7 +46,7 @@ const Insights: React.FC = () => {
 
   return (
     <div className="text-[1.25vw] leading-[2vw] font-light">
-      <TOC sections={sections} />
+      {/* <TOC sections={sections} /> */}
       <Banner
         leftAlign={false}
         projectType="UX/UI REDESIGN"
